@@ -5,51 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página</title>
+    <title>Testes</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
+        .section1,
+        .section2 {
+            box-sizing: border-box;
         }
 
-        body {
-            background: black
-        }
-
-        #heading {
-            background: rgba(255, 0, 0, 0.8)
-        }
-
-        #heading div {
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
-            justify-content: space-between;
-            <-- background: red;
-            -->
-        }
-
-        #heading .h1 {
-            font-size: 25px;
-            text-transform: uppercase;
+        .section1 {
+            width: 230px;
+            height: 150px;
             padding: 15px;
+            /*TDBE */
+            border: 5px solid black;
+            margin: 15px;
+            background: greenyellow;
         }
 
-        #heading a {
-            color: white;
-            font-family: sans-serif;
-            text-decoration: none;
+        .section2 {
+            width: 200px;
+            height: 150px;
+            padding: 15px;
+            border: 2px solid black;
+            margin: 10px;
+            background: cyan;
         }
     </style>
 </head>
 
 <body>
-    <header id="heading">
-        <div>
-            <h1 class="h1"><a href="#">Netflix</a></h1>
-            <h1 class="h1"><a href="#">Netflix</a></h1>
-        </div>
-    </header>
+    <section class="section1">1111111111111111111111111 1111111111111111111111111 1111111111111111111 111111111111
+    </section>
+    <section class="section2">2</section>
 </body>
 
 </html>
