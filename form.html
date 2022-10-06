@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form action="#" method="get" target="_blank">
+        <p>Formulário</p>
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite o nome" required>
+        </p>
+        <p>
+            <label for="mail">E-Mail:</label>
+            <input type="mail" id="email" name="emial" placeholder="Digite o e-mail" required>
+        </p>
+        <p>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" name="pass" placeholder="Digite sua senha" required>
+        </p>
+        <p>
+            <label for="dev">Desenvolvedor?</label>
+            <input type="checkbox" id="dev" name="dev">
+        </p>
+        <p>
+            Sexo:<br>
+            <label for="sexmale">Masculino</label>
+            <input type="radio" id="sexmale" name="sex"">
+            <label for=" sexfem">Feminino</label>
+            <input type="radio" id="sexfem" name="sex"">
+        </p>
+        <p>
+            <label for=" date">Data:</label>
+            <input type="date" id="date" name="date">
+        </p>
+        <p>
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time">
+        </p>
+        <p>
+            <label for="language">Idioma:</label>
+            <select id="language" name="language">
+                <option value="port">Português</option>
+                <option value="eng">Inglês</option>
+                <option value="esp">Espanhol</option>
+            </select>
+        </p>
+        <p>
+            <label for="photo">Foto:</label>
+            <input type="file" id="photo" name="photo" accept=".jpg,.png,.tif">
+        </p>
+        <p>
+            <label for="color">Cor:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">Idade:</label>
+            <input type="number" id="age" name="age" placeholder="Digite sua idade" min="1" max="120">
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Enviar</button>
+        </p>
+        <p>
+            <label for="obs">Observações:</label><br>
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+
+</html>
