@@ -1,0 +1,7 @@
+.box {
+    background-color: chartreuse;
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+    border-width: 2px;
+}
